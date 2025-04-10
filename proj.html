@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Projects</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #3af0b3;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  grid-gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #0062cc;
+}
+.back-button {
+display: block;
+margin: 20px auto;
+text-align: center;
+        }
+
+.back-button a {
+background: #0062cc;
+color: rgb(245, 245, 245);
+text-decoration: underline;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 1em;
+transition: background 0.3s;
+        }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+    <div class="project">
+      <h3>Java 1: [Pass or Fail]</h3>
+      <a href="java1.java">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Java 2: [Array]</h3>
+      <a href="java3.java">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Java 3: [For loop]</h3>
+        <a href="java2.java">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Java 4: [Do while]</h3>
+        <a href="java4.java">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Java 5: [While]</h3>
+        <a href="java5.java">View Project</a>
+    </div>
+  </div>
+</div>
+<div class="back-button">
+    <a href="shaun.html">Back to Portfolio</a>
+</div>
+</body>
+</html>
